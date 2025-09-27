@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="250" viewBox="0 0 250 250">
+  <rect width="250" height="250" fill="#0b5a3a"/>
+  <circle cx="125" cy="125" r="100" fill="#ffffff" opacity="0.2"/>
+  <text x="125" y="120" text-anchor="middle" fill="white" font-size="24" font-family="Arial">IUG</text>
+  <text x="125" y="145" text-anchor="middle" fill="white" font-size="12" font-family="Arial">الجامعة الإسلامية</text>
+  <text x="125" y="160" text-anchor="middle" fill="white" font-size="12" font-family="Arial">بغزة</text>
+</svg>

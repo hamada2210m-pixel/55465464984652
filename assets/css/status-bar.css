@@ -1,0 +1,31 @@
+/* Status Bar CSS */
+.status-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  background: linear-gradient(90deg, var(--primary-color, #0b5a3a), var(--secondary-color, #006633));
+  color: white;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.status-bar-text {
+  font-weight: bold;
+  animation: statusPulse 2s ease-in-out infinite;
+}
+
+@keyframes statusPulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.8; }
+}
+
+/* Adjust body to account for status bar */
+body.has-status-bar {
+  padding-top: 30px;
+}

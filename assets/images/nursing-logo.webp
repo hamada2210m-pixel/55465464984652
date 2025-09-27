@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="225" height="225" viewBox="0 0 225 225">
+  <rect width="225" height="225" fill="#0b5a3a"/>
+  <circle cx="112.5" cy="112.5" r="80" fill="#ffffff" opacity="0.2"/>
+  <text x="112.5" y="115" text-anchor="middle" fill="white" font-size="16" font-family="Arial">nursing</text>
+</svg>
