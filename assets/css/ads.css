@@ -1,0 +1,61 @@
+/* Advertisement CSS */
+.ad-container {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  border: 2px solid var(--primary-color, #0b5a3a);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.ad-title {
+  color: var(--primary-color, #0b5a3a);
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.ad-content {
+  color: #333;
+  line-height: 1.5;
+}
+
+.ad-banner {
+  background: linear-gradient(90deg, var(--primary-color, #0b5a3a), var(--secondary-color, #006633));
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 15px 0;
+  animation: adBounce 3s ease-in-out infinite;
+}
+
+@keyframes adBounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-5px); }
+  60% { transform: translateY(-3px); }
+}
+
+.ad-close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.ad-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1001;
+  max-width: 400px;
+  width: 90%;
+}
