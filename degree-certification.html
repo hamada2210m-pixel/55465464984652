@@ -66,7 +66,7 @@
 </div>
 <div class="modal-container" id="lightbox">
 <span class="close-button"><i class="fas fa-times"></i></span>
-<img alt="صورة" id="lightbox-image" loading="lazy" src=""/>
+<img alt="صورة مكبرة" id="lightbox-image" loading="lazy" src=""/>
 </div>
 <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -169,6 +169,7 @@
                                 image.addEventListener('click', (e) => {
                                     e.stopPropagation();
                                     lightboxImage.src = image.src;
+                                    lightboxImage.alt = image.alt;
                                     lightbox.classList.add('active');
                                 });
                             });

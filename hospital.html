@@ -146,7 +146,7 @@
 </div>
 <div id="lightbox">
 <span class="close">×</span>
-<img id="lightbox-image" src=""/>
+<img id="lightbox-image" src="" alt="صورة مكبرة"/>
 </div>
 <audio id="transitionSound" preload="auto" src="assets/sounds/turning.mp3"></audio>
 <script>
@@ -214,6 +214,7 @@
                 image.addEventListener('click', () => {
                     lightbox.classList.add('active');
                     lightboxImage.src = image.src;
+                    lightboxImage.alt = image.alt;
                 });
             });
             lightbox.addEventListener('click', (e) => {
